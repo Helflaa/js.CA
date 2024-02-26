@@ -1,3 +1,5 @@
+Site is deployed on : https://helene-js-ca.netlify.app
+
 This is a course assignment for JavaScript.
 
 The assignment was made from scratch with SquareEyes API.

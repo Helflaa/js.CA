@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <script src="js/cart.js" defer></script>
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <ul class="nav">
+        <li>
+            <a class="home" href="index.html">
+                Home
+            </a>
+        </li>
+        <li>
+            <a class="cart" href="cart.html">
+                Cart
+            </a>
+        </li>
+    </ul>
+</header>
+
+<main>
+    <div id="items-container"></div>
+    <div id="empty-cart">
+        <h1>Your cart is empty!</h1>
+        <div id="btn-container">
+            <button onclick="backToBrowse()" class="btn" id="back-to-browse">Back to browse</button>
+        </div>
+    </div>
+    <div id="total-price"></div>
+</main>
+
+</body>
+</html>

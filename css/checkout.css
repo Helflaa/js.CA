@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thank-you-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: darkslategrey;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.thank-you-text h2 {
+    padding-bottom: 20px;
+}

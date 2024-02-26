@@ -1,0 +1,44 @@
+.movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+    margin: 10px;
+    gap: 16px;
+}
+
+#desc-text {
+    text-indent: 20px;
+}
+
+.movie h1 {
+    color: white;
+    text-transform: uppercase;
+    margin: 40px;
+}
+
+.button-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
